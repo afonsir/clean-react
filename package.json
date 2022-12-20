@@ -2,6 +2,9 @@
   "name": "clean-react",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "prepare": "husky install"
+  },
   "author": "",
   "license": "MIT",
   "devDependencies": {
@@ -14,6 +17,8 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-standard": "^5.0.0",
     "git-commit-msg-linter": "^4.4.0",
+    "husky": "^8.0.2",
+    "lint-staged": "^13.1.0",
     "typescript": "^4.9.4"
   }
 }
